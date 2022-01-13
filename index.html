@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-gray-900 font-mono text-white">
+<html lang="en" class="bg-real-dark font-mono text-white">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
         </a>
       </div>
     </header>
-    <main class="w-full h-auto flex flex-col justify-between mt-16">
+    <main class="w-full h-auto flex flex-col justify-between mt-16 items-center">
       <div class="flex flex-col items-center justify-center mb-20">
         <h3 class="">Who am I?</h3>
         <p class="text-sm w-2/4 mb-6 text-center">
@@ -53,47 +53,65 @@
           next few years. If you want to know more, just scroll.
         </p>
       </div>
-      <div id="animation-main" class="flex items-center justify-center mt-24 mb-24 ">
+      <p id="click" class="text-sm blink mt-12">Click on me!</p>
+      <div
+        id="animation-main"
+        class="w-full flex items-center justify-center mt-24 mb-24 "
+      >
+        <p id="animation-text" class="text-sm w-28 absolute">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          earum quod incidunt, nemo nostrum animi minus, dolor vel magnam alias
+          odio iste eveniet culpa modi corporis iure commodi! Optio, itaque!
+        </p>
         <img
           id="animation-pic"
           class="w-32 rounded-sm shadow-2xl absolute"
           src="./pictures/irvan-smith-ymn_TY_MBn8-unsplash.jpg"
           alt=""
         />
-        <p id="animation-text" class="text-sm w-1/4 absolute">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          earum quod incidunt, nemo nostrum animi minus, dolor vel magnam alias
-          odio iste eveniet culpa modi corporis iure commodi! Optio, itaque!
-        </p>
       </div>
       <div class="flex flex-col items-center justify-center mt-24">
-        <div class="flex items-center justify-center">
-          <img
-            class="w-20 h-28 rounded-sm shadow-2xl mx-3"
-            src="./pictures/damir-spanic-22L7do1cOho-unsplash.jpg"
-            alt=""
-          />
-          <img
-            class="w-20 h-28 rounded-sm shadow-2xl mx-3"
-            src="./pictures/jake-schumacher-W53FwtFtoM0-unsplash.jpg"
-            alt=""
-          />
-          <img
-            class="w-20 h-28 rounded-sm shadow-2xl mx-3"
-            src="./pictures/connor-coyne-OgqWLzWRSaI-unsplash.jpg"
-            alt=""
-          />
-        </div>
-        <div class="flex items-center justify-center mt-2">
-          <p class="text-center text-xs w-20 mb-6 mx-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <p class="text-center text-xs w-20 mb-6 mx-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <p class="text-center text-xs w-20 mb-6 mx-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elits.
-          </p>
+          <div class="h-32 w-64 top-20 left-[calc(50%-300%)] flex">
+            <div class="card flex h-28 w-20 bg-card-dark rounded-sm shadow-3xl">
+              <h3 class="title text-sm absolute left-3 top-2">Card 1</h3>
+              <p class="text-xxs absolute left-3 top-5 w-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Veritatis dignissimos animi eum nulla, consequuntur natus repellat consequatur! Aperiam ea, doloremque
+                  harum rem ipsam placeat explicabo perspiciatis similique architecto nemo pariatur.</p>
+                  <div class="h-3 w-14 bg-blue absolute left-2 top-24 rounded-sm hover:bg-light-blue">
+                    <p class="text-xxs mt-1 ml-1">GitHub Repo</p>
+                  </div>
+            </div>
+            <div class="card flex h-28 w-20 bg-card-dark rounded-sm shadow-3xl">
+              <h3 class="title text-sm absolute left-3 top-2">Card 2</h3>
+              <p class="text-xxs absolute left-3 top-5 w-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Veritatis dignissimos animi eum nulla, consequuntur natus repellat consequatur! Aperiam ea, doloremque 
+                 harum rem ipsam placeat explicabo perspiciatis similique architecto nemo pariatur.</p>
+                 <div class="h-3 w-14 bg-blue absolute left-2 top-24 rounded-sm hover:bg-light-blue">
+                  <p class="text-xxs mt-1 ml-1">GitHub Repo</p>
+                 </div>
+            </div>
+            <div class="card flex h-28 w-20 bg-card-dark rounded-sm shadow-3xl">
+              <h3 class="title text-sm absolute left-3 top-2">Card 3</h3>
+              <p class="text-xxs absolute left-3 top-5 w-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Veritatis dignissimos animi eum nulla, consequuntur natus repellat consequatur! Aperiam ea, doloremque 
+                 harum rem ipsam placeat explicabo perspiciatis similique architecto nemo pariatur.</p>
+                 <div class="h-3 w-14 bg-blue absolute left-2 top-24 rounded-sm hover:bg-light-blue">
+                  <p class="text-xxs mt-1 ml-1">GitHub Repo</p>
+                 </div>
+            </div> 
+            <div class="card flex h-28 w-20 bg-card-dark rounded-sm shadow-3xl">
+              <p class="text-gray text-xxs absolute left-3 top-1">Jan 2022</p>
+              <h3 class="title text-sm absolute left-3 top-2">M122 Backup</h3>
+              <p class="text-xxs absolute left-3 top-5 w-12">This Projects involves Backups. It was a school project that i had 
+                to do as homework. This PowerShell script will create a Backup of a Repository in a different one.
+              </p>
+              <a href="https://github.com/ruuiisu/M122_Backupproject">
+                <div class="h-3 w-14 bg-blue absolute left-2 top-24 rounded-sm hover:bg-light-blue">
+                  <p class="text-xxs mt-1 ml-1">GitHub Repo</p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </main>
